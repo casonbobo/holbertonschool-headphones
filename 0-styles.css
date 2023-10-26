@@ -1,0 +1,206 @@
+:root {
+    --pink: #ff6565;
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'SSP' sans-serif;
+    background-color: #FFFFFF;
+    color: #071629;
+}
+h1, p {
+    margin: auto auto;
+    max-width: 1000px;
+}
+p {
+    font-family: sans-serif;
+}
+button {
+    border-radius: 90px;
+    border: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    background-color: var(--pink);
+    font-family: sans-serif;
+    color: white;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+}
+button:hover {
+    opacity: 0.9;
+}
+.button-text {
+    font-size: 14px;
+}
+.main-text-block, .what-do-text, .results-text-block {
+    max-width: 637px;
+    line-height: 26px;
+    padding-bottom: 3rem;
+    margin-top: 1rem;
+}
+.header {
+    background-image: url(images/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+header {
+    width: 75%;
+    margin: auto auto;
+    display: flex;
+    padding-top: 1rem;
+}
+.header-logo {
+    max-height: 35px;
+    flex: 1;
+    text-align: left;
+}
+.header-links a{
+    flex: 1;
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    padding-top: 1rem;
+    margin-left: 3rem;
+}
+.main-title {
+    font-size: 32px;
+    padding-top: 372px;
+}
+.main-sub-title {
+    margin-top: 0px;
+}
+.what-we-do p {
+    margin-bottom: 10px;
+}
+.what-do-title {
+    padding-top: 150px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    font-size: 30px;
+}
+.icons {
+    width: 70%;
+    margin: auto auto 0;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 75px;
+}
+.icons h1 {
+    font-size: 18px;
+    margin: 1rem;
+}
+.icons p {
+    font-size: 14px;
+    max-width: 207px;
+    line-height: 26px;
+}
+.icon {
+    flex: 1;
+}
+.icon img {
+    height: 65px;
+}
+.results-section {
+    color: white;
+    background-image: url('images/headphones_hero_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.results-title {
+    padding-top: 6rem;
+    margin-bottom: 3rem;
+    font-size: 32px;
+}
+.pentagones {
+    width: 70%;
+    justify-content: space-between;
+    margin: 3rem auto auto;
+    padding-bottom: 5rem;
+    display: flex;
+}
+.pentagone {
+    background-image: url('images/pentagone.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 3rem;
+}
+.pentagone h1 {
+    padding-top: 1rem;
+    font-size: 40px;
+}
+.pentagone p {
+    font-size: 12px;
+}
+.contact-us {
+    height: 250px;
+    width: 20rem;
+    align-items: center;
+    margin: auto auto 12rem;
+}
+.contact-us h1 {
+    margin-top: 5rem;
+    font-size: 32px;
+    color: #071629;
+}
+form { 
+    margin-top: 3rem;
+}
+.form {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex-direction: column;
+}
+.form label {
+    margin-top: 1rem;
+    color: #071629;
+    font-size: 14px;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+.form input {
+    width: 100%;
+    margin-top: 1rem;
+    width: 100%;
+    height: .05px;
+    opacity: 0.1;
+    background: #071629;
+}
+.form button {
+    margin-left: 73px;
+}
+footer {
+    height: 250px;
+    color: white;
+    background-color: #071629;
+}
+footer p {
+    opacity: 30%;
+    padding-top: 5rem;
+}
+.footer {
+    display: flex;
+    width: 75;
+    padding-top: 5rem;
+    margin: auto auto auto;
+}
+.footer-logo {
+    flex: 0 0 calc(50% - 10px);
+    text-align: left;
+}
+.footer-links {
+    flex: 0 0 calc(50% - 10px);
+    text-align: right;
+}
+.footer-links a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
